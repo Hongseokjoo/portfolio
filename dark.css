@@ -1,0 +1,43 @@
+html.dark body,
+html.dark #about,
+html.dark #work,
+html.dark .section__container
+ {
+  background: #121212;
+  color: #bbb;
+}
+html.dark #testimonials,
+html.dark button.selected,
+html.dark #toggleTheme,
+html.dark button ,
+html.dark #work,
+html.dark #skills,
+html.dark #navbar.navbar--dark {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark li,
+html.dark .fa-code,
+html.dark p,
+html.dark button,
+html.dark #toggleTheme,
+html.dark a,
+html.dark .major__title, .major__description {
+  color: var(--color-white);
+}
+html.dark button:hover {
+  background: #4d4d4d;
+}
+html.dark .project{
+  background-color: rgba(255, 255, 255, 0.1);
+}
+html.dark .testimonial__speech-bubble a{
+  color: steelblue;
+  font-weight: 600;
+}
+html.dark .vapour span {
+  background-color: #fff;
+}
