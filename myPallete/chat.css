@@ -1,0 +1,119 @@
+   /* #header{
+            background-color: red;
+            height: 56px;
+
+        } */
+        body{
+            background-color: white;
+        }
+        div{
+            border: 1px solid black;
+        }
+
+        #main{
+            width: 317px;
+            height: 685px;
+            padding: 24px;
+            border: 1px solid black;
+        }
+        aside{
+            width: 402px;
+            height: 685px;
+            padding: 24px 24px 0 0 ;
+           
+        }
+       
+  /*전체 박스 */
+       
+        .content-box{
+            display: flex;
+        }
+      
+        .btn-display>div{
+            height: 642px;
+            color: black;
+        }
+     /* aside 버튼  */
+        #chat-button-box>input{
+            width: 80px;
+            height: 40px;
+            margin-left: 0px;
+            outline: none;
+            background-color: rgb(0, 0, 0);
+            border: 0;
+            color: white;
+            background-image: url(/image/toggleBtn.svg);
+        }
+        aside>div .toggle-btn img{
+            width: 50px;
+            height: 40px;
+            margin-left: 50px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            position: absolute;
+        }
+        aside>div .home-btn img{
+            width: 50px;
+            height: 40px;
+            margin-left: 0px;
+            vertical-align: bottom;
+            background-color: rgb(255, 255, 255);
+            color: white;
+            
+        }
+        #chat-button-box{
+            border: 0;
+            
+            outline: none;
+        }
+       
+       
+        /* 채팅 댓글 리스트 버튼눌러서 불러오기(js사용) */
+        .chat-display.off{
+            display: none;
+            outline: none;
+            border-top: 0;
+        } 
+        .ment-display{
+            display: none;
+        }
+        .list-display{
+            display: none;
+        }
+
+        .chat-display.on {
+            display: block;
+            outline: none;
+            border-top: 0;
+        }
+        .ment-display.on {
+            display: block;
+            outline: none;
+            border-top: 0;
+        }
+        .list-display.on {
+            display: block;
+            outline: none;
+            border-top: 0;
+        }
+        /* 토글 메뉴 on/off */
+        .toggle-menu{
+            display: none;
+        }
+        .toggle-menu.on {
+            display: block;
+            position: relative;
+            z-index: 10;
+        }
+        /* 댓글 달기 btn 화면 */
+        .ment-display-input{
+            height: 40px;
+            background-color: rgb(199, 196, 196);
+            width: 400px;
+        }
+        .ment-display-profile{
+            padding: 15px;
+            border-radius: 50px;
+            background-color: red;
+        }
+  
